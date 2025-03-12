@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7f512fb8b233b54c6d3ceb33b88de9c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7f512fb8b233b54c6d3ceb33b88de9c9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7f512fb8b233b54c6d3ceb33b88de9c9 = L.map(
+                "map_7f512fb8b233b54c6d3ceb33b88de9c9",
+                {
+                    center: [19.173362421363638, -103.90135704090909],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cb4438da8c88ae2ff2d921a73ce0648f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cb4438da8c88ae2ff2d921a73ce0648f.addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var marker_465f4a47fddcdd69990ac411e0cc3354 = L.marker(
+                [19.2549677, -103.7155904],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_54bec2f6f114b14fd62d6489f16211aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_465f4a47fddcdd69990ac411e0cc3354.setIcon(icon_54bec2f6f114b14fd62d6489f16211aa);
+        
+    
+        var popup_8d85714c95fb5fd7188a8ad910f9c059 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd0660f6e1a3fe3daa19db51b08e77ac = $(`<div id="html_cd0660f6e1a3fe3daa19db51b08e77ac" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Colima</div>`)[0];
+                popup_8d85714c95fb5fd7188a8ad910f9c059.setContent(html_cd0660f6e1a3fe3daa19db51b08e77ac);
+            
+        
+
+        marker_465f4a47fddcdd69990ac411e0cc3354.bindPopup(popup_8d85714c95fb5fd7188a8ad910f9c059)
+        ;
+
+        
+    
+    
+            var marker_18e002f08f2042c85e11ed6cbd67c2a7 = L.marker(
+                [19.0964202, -104.3041502],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_8c090e46167e940e17986c802ba9c675 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18e002f08f2042c85e11ed6cbd67c2a7.setIcon(icon_8c090e46167e940e17986c802ba9c675);
+        
+    
+        var popup_3bae6b564b7c2f606bc53e4ad84b2d5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_269c4e6532117275f537dcf9154e71e5 = $(`<div id="html_269c4e6532117275f537dcf9154e71e5" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Colima</div>`)[0];
+                popup_3bae6b564b7c2f606bc53e4ad84b2d5c.setContent(html_269c4e6532117275f537dcf9154e71e5);
+            
+        
+
+        marker_18e002f08f2042c85e11ed6cbd67c2a7.bindPopup(popup_3bae6b564b7c2f606bc53e4ad84b2d5c)
+        ;
+
+        
+    
+    
+            var marker_9e3bc3efe717ee77ee1006c2b31c0c43 = L.marker(
+                [19.2576606, -103.7178529],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_366649d78b64cd91319e023da4cf4b31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e3bc3efe717ee77ee1006c2b31c0c43.setIcon(icon_366649d78b64cd91319e023da4cf4b31);
+        
+    
+        var popup_37a647f5b65d8a7c4f97c94e3f3208e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e86f15554434b5c77cc0552789e42d12 = $(`<div id="html_e86f15554434b5c77cc0552789e42d12" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Colima</div>`)[0];
+                popup_37a647f5b65d8a7c4f97c94e3f3208e6.setContent(html_e86f15554434b5c77cc0552789e42d12);
+            
+        
+
+        marker_9e3bc3efe717ee77ee1006c2b31c0c43.bindPopup(popup_37a647f5b65d8a7c4f97c94e3f3208e6)
+        ;
+
+        
+    
+    
+            var marker_9e930ef5c8e4b13a86572397cf75bf7c = L.marker(
+                [19.1065833, -104.3358207],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_b804afbc18f1531f73a2c483fe4684af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e930ef5c8e4b13a86572397cf75bf7c.setIcon(icon_b804afbc18f1531f73a2c483fe4684af);
+        
+    
+        var popup_a137324717e4cf3910e22d14ee7f59e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6cf3e1c10067e13782366bc41c917eb = $(`<div id="html_a6cf3e1c10067e13782366bc41c917eb" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Colima</div>`)[0];
+                popup_a137324717e4cf3910e22d14ee7f59e9.setContent(html_a6cf3e1c10067e13782366bc41c917eb);
+            
+        
+
+        marker_9e930ef5c8e4b13a86572397cf75bf7c.bindPopup(popup_a137324717e4cf3910e22d14ee7f59e9)
+        ;
+
+        
+    
+    
+            var marker_5d6a54df54a3a5d2ecd7df987aa56190 = L.marker(
+                [19.272548, -103.734967],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_c80a06d1bd2b72b20d75264862c30775 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d6a54df54a3a5d2ecd7df987aa56190.setIcon(icon_c80a06d1bd2b72b20d75264862c30775);
+        
+    
+        var popup_2a8dccfddb60cf83e31faa07a7e53e5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bca6446162d270e42b46ebcb88605e74 = $(`<div id="html_bca6446162d270e42b46ebcb88605e74" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Colima</div>`)[0];
+                popup_2a8dccfddb60cf83e31faa07a7e53e5a.setContent(html_bca6446162d270e42b46ebcb88605e74);
+            
+        
+
+        marker_5d6a54df54a3a5d2ecd7df987aa56190.bindPopup(popup_2a8dccfddb60cf83e31faa07a7e53e5a)
+        ;
+
+        
+    
+    
+            var marker_ccdcc1dcba5d807917d352017eda1c89 = L.marker(
+                [19.2438822, -103.7390894],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_d1230bdc83ca7dbd3fbd7735a6c5b606 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ccdcc1dcba5d807917d352017eda1c89.setIcon(icon_d1230bdc83ca7dbd3fbd7735a6c5b606);
+        
+    
+        var popup_285ac4010b541f45b06602368d1e9648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc23d74e9c11bf207bbd1755974687be = $(`<div id="html_cc23d74e9c11bf207bbd1755974687be" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_285ac4010b541f45b06602368d1e9648.setContent(html_cc23d74e9c11bf207bbd1755974687be);
+            
+        
+
+        marker_ccdcc1dcba5d807917d352017eda1c89.bindPopup(popup_285ac4010b541f45b06602368d1e9648)
+        ;
+
+        
+    
+    
+            var marker_467be96cfe25106883ad4f9a3f89f989 = L.marker(
+                [19.240026, -103.7231429],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_196b0b3edaf71ab6b7448116b607099e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_467be96cfe25106883ad4f9a3f89f989.setIcon(icon_196b0b3edaf71ab6b7448116b607099e);
+        
+    
+        var popup_b4299f3be575f33b4f26b6db9917a290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fe89e9bda2e20c694ddd241bfc15f9c = $(`<div id="html_2fe89e9bda2e20c694ddd241bfc15f9c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_b4299f3be575f33b4f26b6db9917a290.setContent(html_2fe89e9bda2e20c694ddd241bfc15f9c);
+            
+        
+
+        marker_467be96cfe25106883ad4f9a3f89f989.bindPopup(popup_b4299f3be575f33b4f26b6db9917a290)
+        ;
+
+        
+    
+    
+            var marker_f5360aad335825d93564374a3c6c6e15 = L.marker(
+                [18.9118196, -103.8723082],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_471aae82caae0f1ea9f77d7343be4e0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f5360aad335825d93564374a3c6c6e15.setIcon(icon_471aae82caae0f1ea9f77d7343be4e0f);
+        
+    
+        var popup_c59bd8f487c1d4dbf58822bbcecb24cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f494cb3cae11aeef5fe785c62f75d7e3 = $(`<div id="html_f494cb3cae11aeef5fe785c62f75d7e3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_c59bd8f487c1d4dbf58822bbcecb24cc.setContent(html_f494cb3cae11aeef5fe785c62f75d7e3);
+            
+        
+
+        marker_f5360aad335825d93564374a3c6c6e15.bindPopup(popup_c59bd8f487c1d4dbf58822bbcecb24cc)
+        ;
+
+        
+    
+    
+            var marker_442236016136662f62a9bfd8b9db7d49 = L.marker(
+                [19.2724025, -103.7369358],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_5c1a2591a2bd593765e508caed730891 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_442236016136662f62a9bfd8b9db7d49.setIcon(icon_5c1a2591a2bd593765e508caed730891);
+        
+    
+        var popup_8aa3a65e751cab3bd4723db1f98455b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db5b89a5afd4008a55643ae471ae645b = $(`<div id="html_db5b89a5afd4008a55643ae471ae645b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_8aa3a65e751cab3bd4723db1f98455b5.setContent(html_db5b89a5afd4008a55643ae471ae645b);
+            
+        
+
+        marker_442236016136662f62a9bfd8b9db7d49.bindPopup(popup_8aa3a65e751cab3bd4723db1f98455b5)
+        ;
+
+        
+    
+    
+            var marker_6e116810860985186094066b81bd1294 = L.marker(
+                [19.0722871, -104.2793668],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_962c96efe16adbc9caf98639b7e5977a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e116810860985186094066b81bd1294.setIcon(icon_962c96efe16adbc9caf98639b7e5977a);
+        
+    
+        var popup_f1c69d9c3b22e9eacebe84101d807246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_798a7c9555062611edab1c038e427850 = $(`<div id="html_798a7c9555062611edab1c038e427850" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_f1c69d9c3b22e9eacebe84101d807246.setContent(html_798a7c9555062611edab1c038e427850);
+            
+        
+
+        marker_6e116810860985186094066b81bd1294.bindPopup(popup_f1c69d9c3b22e9eacebe84101d807246)
+        ;
+
+        
+    
+    
+            var marker_f61756cef72b9a129003697b07ab5787 = L.marker(
+                [19.2427776, -103.7374697],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_b674c79a31f168c2f1d2b62cb00d6b8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f61756cef72b9a129003697b07ab5787.setIcon(icon_b674c79a31f168c2f1d2b62cb00d6b8a);
+        
+    
+        var popup_87aeeba4c0ea9688f98ae8578811f6ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d004829923e8d8f9ab9bbd044cb3d0cc = $(`<div id="html_d004829923e8d8f9ab9bbd044cb3d0cc" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_87aeeba4c0ea9688f98ae8578811f6ca.setContent(html_d004829923e8d8f9ab9bbd044cb3d0cc);
+            
+        
+
+        marker_f61756cef72b9a129003697b07ab5787.bindPopup(popup_87aeeba4c0ea9688f98ae8578811f6ca)
+        ;
+
+        
+    
+    
+            var marker_cfe79f9bab54950f907ef0c71ac83d97 = L.marker(
+                [19.241945, -103.7257042],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_1ddb59ae157a8875e98a4f40041cc937 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cfe79f9bab54950f907ef0c71ac83d97.setIcon(icon_1ddb59ae157a8875e98a4f40041cc937);
+        
+    
+        var popup_59d915398dc1abf5311bd9c94bd80e0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b919bcc733ed02b51ecc8887c57e47e = $(`<div id="html_2b919bcc733ed02b51ecc8887c57e47e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_59d915398dc1abf5311bd9c94bd80e0f.setContent(html_2b919bcc733ed02b51ecc8887c57e47e);
+            
+        
+
+        marker_cfe79f9bab54950f907ef0c71ac83d97.bindPopup(popup_59d915398dc1abf5311bd9c94bd80e0f)
+        ;
+
+        
+    
+    
+            var marker_536db8126b6d9548468344f6127fca34 = L.marker(
+                [19.0501108, -104.3185668],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_ca86310b58d616f2a5e1f27757ac0baa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_536db8126b6d9548468344f6127fca34.setIcon(icon_ca86310b58d616f2a5e1f27757ac0baa);
+        
+    
+        var popup_8f5306ea427c0187d3ad8aea09fff207 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3723b4afcd5646af69735c9add88c362 = $(`<div id="html_3723b4afcd5646af69735c9add88c362" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_8f5306ea427c0187d3ad8aea09fff207.setContent(html_3723b4afcd5646af69735c9add88c362);
+            
+        
+
+        marker_536db8126b6d9548468344f6127fca34.bindPopup(popup_8f5306ea427c0187d3ad8aea09fff207)
+        ;
+
+        
+    
+    
+            var marker_f5fb5275393d10031514a73b381c1f7f = L.marker(
+                [18.9107204, -103.8760325],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_c5268d5764cf91ecb92dcd784c51faf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f5fb5275393d10031514a73b381c1f7f.setIcon(icon_c5268d5764cf91ecb92dcd784c51faf6);
+        
+    
+        var popup_92df3f285cd8382594f11387cd6e931c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e99c14dd4bc83957de0458d23ff9ad55 = $(`<div id="html_e99c14dd4bc83957de0458d23ff9ad55" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_92df3f285cd8382594f11387cd6e931c.setContent(html_e99c14dd4bc83957de0458d23ff9ad55);
+            
+        
+
+        marker_f5fb5275393d10031514a73b381c1f7f.bindPopup(popup_92df3f285cd8382594f11387cd6e931c)
+        ;
+
+        
+    
+    
+            var marker_d4d5e9748b40486a3507b8b9f9622599 = L.marker(
+                [19.3291594, -103.602993],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_c9dc3b66dea9f18088434c53efe7154e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d4d5e9748b40486a3507b8b9f9622599.setIcon(icon_c9dc3b66dea9f18088434c53efe7154e);
+        
+    
+        var popup_a39ca3f70764a2655a1191ef6f839cc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3425ccd43a759fc53849c5d617e4966f = $(`<div id="html_3425ccd43a759fc53849c5d617e4966f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Colima</div>`)[0];
+                popup_a39ca3f70764a2655a1191ef6f839cc7.setContent(html_3425ccd43a759fc53849c5d617e4966f);
+            
+        
+
+        marker_d4d5e9748b40486a3507b8b9f9622599.bindPopup(popup_a39ca3f70764a2655a1191ef6f839cc7)
+        ;
+
+        
+    
+    
+            var marker_99fd83ae433ffee1a9abca1687d18bd1 = L.marker(
+                [19.2530872, -103.7130333],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_51b807b80b1af59684a24cd859709581 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_99fd83ae433ffee1a9abca1687d18bd1.setIcon(icon_51b807b80b1af59684a24cd859709581);
+        
+    
+        var popup_85d8e0e853e67527f0af795a34549ebd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d0fffd1320540e781d307f59e7455db = $(`<div id="html_6d0fffd1320540e781d307f59e7455db" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Colima</div>`)[0];
+                popup_85d8e0e853e67527f0af795a34549ebd.setContent(html_6d0fffd1320540e781d307f59e7455db);
+            
+        
+
+        marker_99fd83ae433ffee1a9abca1687d18bd1.bindPopup(popup_85d8e0e853e67527f0af795a34549ebd)
+        ;
+
+        
+    
+    
+            var marker_060d90907f421df6a27dc23fe8df4a30 = L.marker(
+                [19.2403456, -103.7281926],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_3884b227be2c80d9ca28cecf9a943b0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_060d90907f421df6a27dc23fe8df4a30.setIcon(icon_3884b227be2c80d9ca28cecf9a943b0f);
+        
+    
+        var popup_aa1f16d72d1b42eaae799e6bd3b407bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbd5d85e2a6b8ccb4e25f881ba87de16 = $(`<div id="html_dbd5d85e2a6b8ccb4e25f881ba87de16" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Colima</div>`)[0];
+                popup_aa1f16d72d1b42eaae799e6bd3b407bb.setContent(html_dbd5d85e2a6b8ccb4e25f881ba87de16);
+            
+        
+
+        marker_060d90907f421df6a27dc23fe8df4a30.bindPopup(popup_aa1f16d72d1b42eaae799e6bd3b407bb)
+        ;
+
+        
+    
+    
+            var marker_683adba975a4422368672ffebe1964f8 = L.marker(
+                [19.0497472, -104.3224637],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_7313c2214054d02234640a25daabf6b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_683adba975a4422368672ffebe1964f8.setIcon(icon_7313c2214054d02234640a25daabf6b5);
+        
+    
+        var popup_7070c4024693eca8c6a1c7ca6b202eed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13dda9330e14c733e400dc5b4009b368 = $(`<div id="html_13dda9330e14c733e400dc5b4009b368" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Colima</div>`)[0];
+                popup_7070c4024693eca8c6a1c7ca6b202eed.setContent(html_13dda9330e14c733e400dc5b4009b368);
+            
+        
+
+        marker_683adba975a4422368672ffebe1964f8.bindPopup(popup_7070c4024693eca8c6a1c7ca6b202eed)
+        ;
+
+        
+    
+    
+            var marker_f2ddb53d883a7737a7d92ef1fad0e7f4 = L.marker(
+                [19.2452571, -103.7139191],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_0666fe72f3a0e05e61e7c2fa98a41405 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2ddb53d883a7737a7d92ef1fad0e7f4.setIcon(icon_0666fe72f3a0e05e61e7c2fa98a41405);
+        
+    
+        var popup_4eda6a8a76d5fdaa0ea01f5c73c13938 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5b0e513fa13d5b6e4e144398216e6e2 = $(`<div id="html_a5b0e513fa13d5b6e4e144398216e6e2" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Colima</div>`)[0];
+                popup_4eda6a8a76d5fdaa0ea01f5c73c13938.setContent(html_a5b0e513fa13d5b6e4e144398216e6e2);
+            
+        
+
+        marker_f2ddb53d883a7737a7d92ef1fad0e7f4.bindPopup(popup_4eda6a8a76d5fdaa0ea01f5c73c13938)
+        ;
+
+        
+    
+    
+            var marker_4d0988291d8a670529ce7140bf357385 = L.marker(
+                [19.109394, -104.3196218],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_ad8f0cb3df7e657d37ff1739933cf5c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4d0988291d8a670529ce7140bf357385.setIcon(icon_ad8f0cb3df7e657d37ff1739933cf5c6);
+        
+    
+        var popup_bd90d5bad82b940610f731d60906f41a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fce7c73c7b875515eaf11e9e1867728 = $(`<div id="html_6fce7c73c7b875515eaf11e9e1867728" style="width: 100.0%; height: 100.0%;">AFORE: PRINCIPAL Estado: Colima</div>`)[0];
+                popup_bd90d5bad82b940610f731d60906f41a.setContent(html_6fce7c73c7b875515eaf11e9e1867728);
+            
+        
+
+        marker_4d0988291d8a670529ce7140bf357385.bindPopup(popup_bd90d5bad82b940610f731d60906f41a)
+        ;
+
+        
+    
+    
+            var marker_9a01e243efebb1b5c2db5baf3ee29f16 = L.marker(
+                [19.2450546, -103.7290524],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_09500e922174c80c86938faf65e19dee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a01e243efebb1b5c2db5baf3ee29f16.setIcon(icon_09500e922174c80c86938faf65e19dee);
+        
+    
+        var popup_b88e72c0035bd21ee833a23064bebf60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e5ad6ae0d7eb41562e59bb5427997bc = $(`<div id="html_1e5ad6ae0d7eb41562e59bb5427997bc" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Colima</div>`)[0];
+                popup_b88e72c0035bd21ee833a23064bebf60.setContent(html_1e5ad6ae0d7eb41562e59bb5427997bc);
+            
+        
+
+        marker_9a01e243efebb1b5c2db5baf3ee29f16.bindPopup(popup_b88e72c0035bd21ee833a23064bebf60)
+        ;
+
+        
+    
+    
+            var marker_49796e09ce699e0f5bf58dfccb0d3e8e = L.marker(
+                [19.16777717, -103.8835815],
+                {
+}
+            ).addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+    
+            var icon_7530353ca96ec592137c50e5c63a3630 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_49796e09ce699e0f5bf58dfccb0d3e8e.setIcon(icon_7530353ca96ec592137c50e5c63a3630);
+        
+    
+        var popup_d466360e9709226c3852dc752368cad6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5712bd50ed47272c233961a4cc1d432 = $(`<div id="html_a5712bd50ed47272c233961a4cc1d432" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Colima</div>`)[0];
+                popup_d466360e9709226c3852dc752368cad6.setContent(html_a5712bd50ed47272c233961a4cc1d432);
+            
+        
+
+        marker_49796e09ce699e0f5bf58dfccb0d3e8e.bindPopup(popup_d466360e9709226c3852dc752368cad6)
+        ;
+
+        
+    
+    
+            tile_layer_cb4438da8c88ae2ff2d921a73ce0648f.addTo(map_7f512fb8b233b54c6d3ceb33b88de9c9);
+        
+</script>
+</html>
